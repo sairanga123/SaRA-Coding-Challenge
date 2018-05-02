@@ -1,0 +1,78 @@
+/* This is the css for the challenge for SaRA. I was not sure what font styles or sizes to choose 
+   for this, so I went with Roboto */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.whitebox { 
+   background-color: white;
+   margin: auto;
+   height: 893px;
+   width: 537px;
+   border-radius: 33px;
+   font-family: 'Roboto', sans-serif;
+   color: gray;
+   box-shadow: 0px 5px 20px 7px rgba(66, 11, 11, 0.14); 
+}
+
+h1{ 
+	font-size: 20pt;
+}
+
+hr { 
+	width: 400px;
+}
+
+.aligneverything { 
+	text-align: center; 
+} 
+
+#logo { 
+	width: 100px;
+	height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button{
+	color: white; 
+	font-size: 15pt;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f08080;
+	width: 300px;
+	height: 50px; 
+	border-radius: 50px; 
+}
+
+img { 
+	width: 125px;
+	height: 100px;
+}
+
+.rows { 
+	display: flex; 
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: 30px;
+   margin-right: 30px; 
+}
+
+.rows p { 
+	width: 60%;
+	color: black;
+	font-family: 'Comic Sans', sans-serif;
+	margin: auto; 
+}
+
+footer { 
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px; 
+}
+
+.fullop { 
+	opacity: 1;
+}
+
+.partialop { 
+	opacity: 0.4;
+}
